@@ -1,6 +1,6 @@
 // src/ediciones/ediciones.service.ts
 import data from "../data/teleton.json";
-import { QueryEdicionesDto } from "./query-ediciones.dto";
+import { QueryEdicionesDto } from "./dto/query-ediciones.dto";
 import { EdicionDto } from "./dto/edicion.dto";
 import { PagedEdicionesResponseDto, YearEdicionesResponseDto } from "./dto/responses.dto";
 

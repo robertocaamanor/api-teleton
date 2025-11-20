@@ -1,7 +1,7 @@
 // src/ediciones/ediciones.controller.ts
 import { Controller, Get, Param, ParseIntPipe, Query } from "@nestjs/common";
 import { ApiNotFoundResponse, ApiOkResponse, ApiOperation, ApiParam, ApiTags } from "@nestjs/swagger";
-import { QueryEdicionesDto } from "./query-ediciones.dto";
+import { QueryEdicionesDto } from "./dto/query-ediciones.dto";
 import { EdicionDto } from "./dto/edicion.dto";
 import { NotFoundResponseDto, PagedEdicionesResponseDto, YearEdicionesResponseDto } from "./dto/responses.dto";
 import { EdicionesService } from "./ediciones.service";
